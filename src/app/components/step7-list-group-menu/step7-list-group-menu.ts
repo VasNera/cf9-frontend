@@ -16,7 +16,7 @@ export class Step7ListGroupMenu {
     {text:"step8 Simple Datatable", appLink:
       'simple-data-table-example'},
       {text:"step9 Output Example", appLink:
-        'component-output-example'
-      }
+        'component-output-example'},
+      {text:"step10 Template Forms",appLink:'template-driven-form-example'}
 ]
 }
