@@ -6,7 +6,7 @@ export interface IPerson {
 
 export const ManyPersons: IPerson[] = [
     
-    {"firstname":"Gweneth","lastname":"Worrell","email":"gworrell0@europa.eu"},
+     {"firstname":"Gweneth","lastname":"Worrell","email":"gworrell0@europa.eu"},
   {"firstname":"Lorette","lastname":"Worstall","email":"lworstall1@webeden.co.uk"},
   {"firstname":"Porter","lastname":"Arnaudon","email":"parnaudon2@fema.gov"},
   {"firstname":"Cilka","lastname":"McDonnell","email":"cmcdonnell3@ox.ac.uk"},

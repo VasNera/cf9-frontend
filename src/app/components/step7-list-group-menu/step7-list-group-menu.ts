@@ -15,5 +15,5 @@ export class Step7ListGroupMenu {
     {text: "step5 Event Bind", appLink: 'event-bind-example'},
     {text:"step8 Simple Datatable", appLink:
       'simple-data-table-example'}
-  ]
+]
 }

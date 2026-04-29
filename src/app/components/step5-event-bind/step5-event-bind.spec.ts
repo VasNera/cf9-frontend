@@ -5,8 +5,7 @@ import { Step5EventBind } from './step5-event-bind';
 describe('Step5EventBind', () => {
   let component: Step5EventBind;
   let fixture: ComponentFixture<Step5EventBind>;
-
-  beforeEach(async () => {
+   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [Step5EventBind],
     }).compileComponents();

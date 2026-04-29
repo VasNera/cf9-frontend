@@ -6,7 +6,7 @@ describe('Step8SimpleDataTable', () => {
   let component: Step8SimpleDataTable;
   let fixture: ComponentFixture<Step8SimpleDataTable>;
 
-  beforeEach(async () => {
+   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [Step8SimpleDataTable],
     }).compileComponents();

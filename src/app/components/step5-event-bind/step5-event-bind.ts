@@ -10,12 +10,9 @@ export class Step5EventBind {
   times:number = 0;
 
   incrementTimes(){
-    this.times++;
-
+    this.times++
   }
-
   decrementTimes(){
     this.times--;
-
   }
 }

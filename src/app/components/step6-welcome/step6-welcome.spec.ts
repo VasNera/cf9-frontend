@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Step6Welcome } from './step6-welcome';
-
 describe('Step6Welcome', () => {
   let component: Step6Welcome;
   let fixture: ComponentFixture<Step6Welcome>;
