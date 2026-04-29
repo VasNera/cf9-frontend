@@ -1,3 +1,5 @@
+@if(!doNotShowComponents){
+
 <h1>My angular App</h1>
 <table class="table table-bordered w-50">
   <caption class="caption-top fw-bold bg-primary text-center">User Details</caption>
@@ -19,8 +21,35 @@
 
 <!-- step 3 input variable -->
 
+<h3>From Step 3</h3>
 <div class="d-flex gap-5 text-nowrap"></div>
 
 <app-step3-person-table-input [person] = "Person1"></app-step3-person-table-input>
 <app-step3-person-table-input></app-step3-person-table-input>
 <app-step3-person-table-input [person] = "Person2"></app-step3-person-table-input>
+
+<!-- step 4 for directive example -->
+
+<div>
+  <h3>From Step 4</h3>
+  <app-step4-for-directive></app-step4-for-directive>
+</div>
+
+<!-- step 5 Event Bind -->
+ <div>
+  <h3>From Step 5</h3>
+  <app-step5-event-bind></app-step5-event-bind>
+ </div>
+}@else{
+  <div class="container mt-2">
+    <div class="d-flex flex-column gap-2">
+      <app-navbar></app-navbar>
+      <div class="d-flex flex-row gap-2">
+        <app-step7-list-group-menu></app-step7-list-group-menu>
+        <div class="flex-grow-1 p-2 text-nowrap w-75">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+}
